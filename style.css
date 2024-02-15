@@ -28,3 +28,13 @@ header img{
    /* background-color: yellow;
     border: 1px solid green;*/ 
 }
+
+
+div {
+    background-color:lightgrey;
+    width:900px;
+    border:25px solid green;
+    padding:50px;
+    margin:20px;
+}
+
