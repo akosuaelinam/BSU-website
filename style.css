@@ -2,6 +2,7 @@ body {
     background-color: whitesmoke;
     font-size: 20px;
     font-style: oblique; 
+    margin:0;
 }
 
  h1{
@@ -20,9 +21,6 @@ body {
 
 }
 
-header img{
-    float:left;
-}
 .site-name {
     display: inline-block;
    /* background-color: yellow;
