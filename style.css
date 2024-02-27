@@ -2,8 +2,9 @@ body {
     background-color: whitesmoke;
     font-size: 20px;
     font-style: oblique; 
-    margin:0;
+    margin:auto;
 }
+/* colour and background property */
 
  h1{
     color:black;
@@ -28,12 +29,12 @@ body {
 }
 
 
-div {
-    background-color:lightgrey;
+.site-name {
+    background-color:rgb(121, 210, 121)s;
     width:100%;
-    border:25px solid green;
+    border:25px solid green; 
     padding:40px;
-    margin:5px;
+    margin:auto;
 }
 
 h2{
@@ -47,6 +48,8 @@ h2{
     padding:14px 16px;
     text-decoration:none;
     font-size:24px;
+    offset-distance: 12px;
+    
 }
 
 .topnav{
@@ -55,6 +58,24 @@ h2{
 }
 
 .topnav a:hover{
-    background-color: whitesmoke;
+    background-color: green;
     color: black;
+}
+/* pseudo-selector */
+
+button{
+    border-radius: 50%;
+    padding: 32-x 16px;
+    font-size: 20px;
+    background-color: lightcoral;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+
+
+
+}
+
+.container{
+    padding:40px;
 }
